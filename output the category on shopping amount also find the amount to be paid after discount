@@ -1,0 +1,17 @@
+a=int(input("Enter the total shopping amount:"))
+if(a>25000):
+    print("Gold")
+    c=(20*a)//100
+    d=a-c
+    print("Amount to be paid=",d)
+elif(10000<=a<25000):
+    print("Silver")
+    x=(10*a)//100
+    y=a-x
+    print("Amount to be paid=",y)
+else:
+    print("Bronze")
+    r=(5*a)//100
+    s=a-r
+    print("Amount to be paid=",s) 
+
