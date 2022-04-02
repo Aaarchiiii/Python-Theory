@@ -1,0 +1,13 @@
+a=float(input("Enter the x coordinate of the centre of a circle:"))
+b=float(input("Enter the y coordinate of the centre of a circle:"))
+r=float(input("Enter the radius of a circle:"))
+x=float(input("Enter the x arbitrary point of the circle:"))
+y=float(input("Enter the y arbitrary point of the circle:"))
+d=(((x-a)*(x-a))+((y-b)*(y-b)))**0.5
+if(d<r):
+    print("Point is inside the circle.")
+elif(d==r):
+    print("Point is on the circle.")
+else:
+    print("Point is outside the circle.")
+
