@@ -1,0 +1,7 @@
+d={}
+x=int(input("Enter no. of keys-values pairs:"))
+for i in range(x):
+    k=int(input("Enter keys:"))
+    v=k*k
+    d.update({k:v})
+print(d)    
