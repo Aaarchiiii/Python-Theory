@@ -1,0 +1,8 @@
+dict1={1:2,3:4,5:6,7:8}
+a=1
+b=1
+for x in dict1:
+    a=a*x
+    b=b*dict1[x]
+print(a)
+print(b)
