@@ -1,0 +1,5 @@
+dict1={"Ram":1,"Shyam":2,"Mayank":3,"Archi":4,"Tanvi":5}
+for x in dict1:
+    print(x)
+for x in dict1:
+    print(dict1[x])
