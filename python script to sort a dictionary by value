@@ -1,0 +1,3 @@
+x={"Ram":1,"Shyam":5,"Mayank":2,"Archi":4}
+x1=sorted(x.values())
+print(x1)
