@@ -1,0 +1,5 @@
+dict1={"Ram":1,"Shyam":2,"Mayank":3,"Archi":4,"Tanvi":5}
+if 'Mayank' in dict1:
+    print("Yes, this is one of the key in dict1")
+else:
+    print("No, this is not present in dict1")
