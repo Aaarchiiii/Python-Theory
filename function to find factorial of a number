@@ -1,0 +1,9 @@
+def fac():
+    a=int(input("Enter number:"))
+    fac=1
+    while(a>0):
+        fac=fac*a
+        a=a-1
+    print("Factorial of a given number=",fac)    
+
+fac()    
