@@ -1,0 +1,5 @@
+import numpy as np
+a=np.array([1,2,3,4,5])
+print("Original array=",a)
+b=a>100
+print("Result of a>100:",b)
