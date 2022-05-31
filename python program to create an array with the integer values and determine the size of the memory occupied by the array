@@ -1,0 +1,11 @@
+import numpy as np
+a=[]
+size=int(input("Enter size of the array"))
+for i in range(size):
+    val=int(input("Enter values in the array"))
+    a.append(val)
+myarray=np.array(a)
+print(myarray)
+print("Size of the array:",myarray.size)
+print("Memory size of the numpy array:",myarray.itemsize)
+print("Memory size of numpy array in bytes:",myarray.size*myarray.itemsize)
